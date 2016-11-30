@@ -1,1 +1,7 @@
+body{
+  background-image: linear-gradient(90deg, firebrick, #141F79);
+}
 
+a{
+  color: black;
+}
