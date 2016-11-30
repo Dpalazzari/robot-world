@@ -1,11 +1,11 @@
-<h1>My Robots</h1>
-<a href="/">Home</a>
+<h1 id="title">My Robots</h1>
+<a id="home_button" href="/">[Home]</a>
 
 <% @robots.each do |robot| %>
-  <h3><a href="/robots/<%= robot.id %>"><%= robot.id %></a></h3>
-    <a href="/robots/<%= robot.id %>/edit">Edit</a>
+  <h3 id="the_robots"><a href="/robots/<%= robot.id %>">Look at Robot ID: <%= robot.id %></a></h3>
+    <a id="editor" href="/robots/<%= robot.id %>/edit">Edit Robot</a>
   <form action="/robots/<%= robot.id %>" method="POST">
     <input type="hidden" name="_method" value="DELETE">
-    <input type="submit" value="delete"/>
+    <input id="delete_button" type="submit" value="delete robot"/>
   </form>
 <% end %>

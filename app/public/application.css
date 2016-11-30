@@ -1,7 +1,118 @@
 body{
-  background-image: linear-gradient(90deg, firebrick, #141F79);
+  background-image: linear-gradient(90deg, #ffef96, blue);
 }
 
 a{
+  text-decoration: none;
   color: black;
+}
+
+#robot{
+  text-align: center;
+}
+
+.first_page{
+  text-align: center;
+}
+
+.optimus{
+  border: 10px solid black;
+  border-radius: 10%;
+  height: 300px;
+  width:410px;
+  display: inline-block;
+}
+
+#versus{
+  width:380px;
+  height:280px;
+}
+
+#home_button{
+  font-size: 10px;
+}
+
+#home_button:hover{
+  text-transform: none;
+  color: firebrick;
+}
+
+#editor{
+  background-color: transparent;
+  text-decoration-style: double;
+  font-size: 16px;
+  border: 2px solid transparent;
+}
+
+#editor:hover{
+  text-transform: none;
+  border: 2px solid black;
+  border-radius: 20%;
+}
+
+#delete_button{
+  background-color: transparent;
+  text-decoration-style: double;
+  font-family: Courier;
+  font-size: 12px;
+  border: 2px solid transparent;
+}
+
+#delete_button:hover{
+  border: 2px solid black;
+  border-radius: 20%;
+}
+
+
+#title{
+  font-size: 50px;
+  color: blue;
+}
+
+#the_robots{
+  border: 2px dotted blue;
+  width:175px;
+  text-transform: none;
+}
+
+#the_robots:hover{
+  border: 2px dotted firebrick;
+  width:175px;
+}
+
+.new_robot{
+  background-color: grey;
+  border: 2px solid black;
+  height:20px;
+}
+
+.new_robot:hover{
+  background-color: silver;
+}
+
+#submit_button{
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10%;
+}
+
+#submit_button:hover{
+  color: black;
+  font-weight: bold;
+  background-color: yellow;
+  border: 1px solid purple;
+  border-radius: 10%;
+}
+
+.single_robot{
+  height: 2000px;
+  background-image: url("https://robotoverlordz.fm/images/2014/killerrobot.jpg");
+  border: 10px solid black;
+  /*border-radius: 10%;*/
+}
+
+#robot_name{
+  font-size: 30px;
+  font-family: fantasy;
+  color: blue;
 }
